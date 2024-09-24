@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Instagram Login</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+
+<body>
+    <div class="h-screen w-screen grid grid-cols-1 md:grid-cols-2 grid-rows-6">
+        <div class="row-span-5 flex justify-end">
+            <img class="max-w-sm" src="/public/assets/Images/insta-img.png" alt="Instagram Tela">
+        </div>
+        <div class="row-span-5 flex flex-col justify-center">
+            <form action="" class="w-80 border flex flex-col items-center justify-center px-10 py-4 rounded-lg">
+                <img class="w-52" src="/public/assets/Images/insta-logo.png" alt="Instagram logo">
+
+                <input class="bg-slate-200 h-9 w-full pl-3 rounded-sm border border-slate-300 my-1 text-sm" type="text"
+                    placeholder="Número de telefone ou e-mail">
+                <input class="bg-slate-200 h-9 w-full pl-3 rounded-sm border border-slate-300 my-1 text-sm"
+                    type="password" placeholder="Senha">
+
+                <button class="bg-blue-600 w-full rounded-md h-9 text-sm text-slate-50 my-1 hover:bg-blue-300">Iniciar
+                    Sessão</button>
+
+                <a href="#" class="text-blue-800 font-bold my-3">Entrar com o Facebook</a>
+                <a href="#" class="text-blue-800 text-sm">Esqueci minha senha</a>
+            </form>
+            <div class="w-80 border my-4 text-center py-4 rounded-lg">
+                <p>Não tem conta? <a href="#" class="text-blue-400 font-bold">Cadastre-se</a></p>
+            </div>
+            <div class="w-80">
+                <p class="text-center">Baixe o Aplicativo</p>
+            </div>
+            <div class="w-80 flex justify-center gap-2 mt-4">
+                <img class="h-10" src="/public/assets/Images/apple.png" alt="AppStore">
+                <img class="h-10" src="/public/assets/Images/google.png" alt="GooglePlay">
+            </div>
+        </div>
+        <div class="row-span-1 col-span-2 mt-4">
+            <ul class="flex flex-wrap gap-5 justify-center">
+                <li class="text-sm text-slate-700">Meta</li>
+                <li class="text-sm text-slate-700">Sobre</li>
+                <li class="text-sm text-slate-700">Blogue</li>
+                <li class="text-sm text-slate-700">Empregos</li>
+                <li class="text-sm text-slate-700">Ajuda</li>
+                <li class="text-sm text-slate-700">API</li>
+                <li class="text-sm text-slate-700">Privacidade</li>
+                <li class="text-sm text-slate-700">Termos</li>
+                <li class="text-sm text-slate-700">Localizações</li>
+                <li class="text-sm text-slate-700">Instagram Lite</li>
+                <li class="text-sm text-slate-700">Threads</li>
+                <li class="text-sm text-slate-700">Carregamento de contactos e não utilizadores</li>
+                <li class="text-sm text-slate-700">Verificação Meta</li>
+            </ul>
+            <ul class="flex flex-wrap gap-5 justify-center mt-6">
+                <li class="text-sm text-slate-800">Português (Portugal)</li>
+                <li class="text-sm text-slate-800">&copy; 2024 Instagram from Meta</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
